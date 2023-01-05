@@ -1,4 +1,4 @@
-import donutImage from "./assets/donuts.jpg";
+import donutImage from "./assets/dounuts.jpg";
 
 export function initialPageLoad() {
   const contentDiv = document.querySelector("#content");

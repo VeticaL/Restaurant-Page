@@ -1,7 +1,7 @@
 import { initialPageLoad } from "./pageload";
 import { menu } from "./menu";
 import { contact } from "./contact";
-import "./style.css";
+import './style.css';
 
 initialPageLoad();
 
