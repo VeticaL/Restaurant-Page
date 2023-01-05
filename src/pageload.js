@@ -1,3 +1,5 @@
+import donutImage from "./assets/donuts.jpg";
+
 export function initialPageLoad() {
   const contentDiv = document.querySelector("#content");
 
@@ -9,7 +11,7 @@ export function initialPageLoad() {
 
   const mainImg = document.createElement("img");
   mainImg.classList.add("mainImg");
-  mainImg.src = "/src/assets/dounuts.jpg";
+  mainImg.src = donutImage;
   mainImg.alt = "donut";
   contentDiv.appendChild(mainImg);
 
